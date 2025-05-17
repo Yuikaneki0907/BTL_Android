@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".activity.AppInfoActivity">
 
     <!-- App Introduction Title -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/internet_library_online_education_concept_1" />
+
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="380dp"
         android:layout_height="wrap_content"
         android:text="Giới thiệu về AntiCP"
+        android:textColor="@color/black"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@android:color/black" />
+        android:textStyle="bold" />
 
     <!-- App Description -->
     <TextView
@@ -23,8 +32,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="AntiCP là ứng dụng đọc truyện online tiện lợi, mang đến cho bạn kho truyện phong phú, giao diện thân thiện và trải nghiệm mượt mà. Khám phá những câu chuyện hấp dẫn mọi lúc, mọi nơi cùng AntiCP!"
-        android:textSize="16sp"
-        android:textColor="@android:color/black" />
+        android:textColor="@color/black"
+        android:textSize="16sp" />
 
     <!-- Development Team Title -->
     <TextView
@@ -32,9 +41,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Đội ngũ phát triển"
+        android:textColor="@color/black"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:textColor="@android:color/black" />
+        android:textStyle="bold" />
 
     <!-- Development Team Members -->
     <TextView
@@ -42,17 +51,17 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="• Lê Hồng Anh\n• Lê Phương Anh\n• Vũ Thị Hồng Nhung"
-        android:textSize="16sp"
-        android:textColor="@android:color/black" />
+        android:textColor="@color/black"
+        android:textSize="16sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Thông tin ứng dụng"
+        android:textColor="@color/black"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:textColor="@android:color/black" />
+        android:textStyle="bold" />
 
     <!-- Version -->
     <TextView
@@ -60,8 +69,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Phiên bản: 1.0.0"
-        android:textSize="16sp"
-        android:textColor="@android:color/black" />
+        android:textColor="@color/black"
+        android:textSize="16sp" />
 
     <!-- Contact -->
     <TextView
@@ -69,8 +78,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Liên hệ: le2960620@gmail.com"
-        android:textSize="16sp"
-        android:textColor="@android:color/black" />
+        android:textColor="@color/black"
+        android:textSize="16sp" />
 
     <!-- Privacy Policy -->
     <TextView
@@ -78,10 +87,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Chính sách bảo mật"
-        android:textSize="16sp"
-        android:textColor="@android:color/holo_blue_dark"
         android:clickable="true"
-        android:focusable="true" />
+        android:focusable="true"
+        android:text="Chính sách bảo mật"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp" />
 
 </LinearLayout>

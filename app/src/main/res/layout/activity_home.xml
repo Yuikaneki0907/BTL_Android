@@ -12,11 +12,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
         android:orientation="horizontal"
         android:paddingStart="16dp"
-        android:layout_gravity="center"
-        android:paddingEnd="16dp"
-        android:paddingTop="16dp">
+        android:paddingTop="16dp"
+        android:paddingEnd="16dp">
 
         <TextView
             android:id="@+id/titleTextView"
@@ -25,28 +26,27 @@
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="AntiCP"
-            android:textColor="@android:color/black"
+            android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/searchButton"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/search"
             android:contentDescription="Tìm kiếm"
-            android:padding="12dp"
-            android:src="@android:drawable/ic_menu_search" />
+            android:padding="12dp" />
 
         <ImageButton
             android:id="@+id/bellButton"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/circle_avatar"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:contentDescription="Thông báo"
             android:padding="12dp"
-            android:scaleType="centerCrop" />
+            android:scaleType="centerCrop"
+            android:src="@drawable/circle_avatar" />
 
     </LinearLayout>
 
@@ -88,9 +88,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Thể loại"
+                    android:textColor="@color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@android:color/black" />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/categoryShowMore"
@@ -123,9 +123,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Truyện mới"
+                    android:textColor="@color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@android:color/black" />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/newBookShowMore"
@@ -158,9 +158,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Sắp ra mắt"
+                    android:textColor="@color/black"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@android:color/black" />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/comingSoonShowMore"
