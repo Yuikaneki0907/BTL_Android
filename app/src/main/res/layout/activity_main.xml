@@ -30,10 +30,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:hint="Tên đăng nhập"
-        android:padding="12dp"
         android:background="@drawable/edittext_background"
-        android:inputType="text" />
+        android:hint="Tên đăng nhập"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="@color/black" />
 
     <RelativeLayout
         android:id="@+id/passwordContainer"
@@ -45,10 +46,11 @@
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mật khẩu"
-            android:padding="12dp"
             android:background="@drawable/edittext_background"
-            android:inputType="textPassword" />
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="@color/black" />
 
         <ImageView
             android:id="@+id/ivTogglePassword"
@@ -81,7 +83,7 @@
 
     <TextView
         android:id="@+id/tvRegister"
-        android:layout_width="380dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:gravity="center"
@@ -91,7 +93,7 @@
 
     <TextView
         android:id="@+id/tvForgotPassword"
-        android:layout_width="381dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:gravity="center"

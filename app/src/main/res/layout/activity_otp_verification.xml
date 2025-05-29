@@ -39,10 +39,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tvEmail"
         android:layout_marginTop="20dp"
-        android:hint="Nhập mã OTP"
-        android:padding="12dp"
         android:background="@drawable/edittext_background"
-        android:inputType="number" />
+        android:hint="Nhập mã OTP"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColor="@color/black" />
 
     <TextView
         android:id="@+id/tvTimer"

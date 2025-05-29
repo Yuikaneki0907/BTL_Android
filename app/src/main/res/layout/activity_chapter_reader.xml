@@ -22,19 +22,20 @@
         android:id="@+id/navigationLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_marginTop="8dp"
+        android:background="#E4EEFF"
         android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@id/chapterName"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/chapterName">
 
         <ImageView
             android:id="@+id/prevChapterButton"
             android:layout_width="4dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/left"/>
+            app:srcCompat="@drawable/left" />
 
         <Spinner
             android:id="@+id/chapterSpinner"
